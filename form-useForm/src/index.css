@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 50%;
+  border-radius: 0.2rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+}
+legend{
+  background-color: black;
+  padding: 3px;
+  color: #fff;
+}
+form input{
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+}
+form input[type="submit"]{
+  background-color: #41A445;
+  color: white;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+form input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #39c03d;
+
+}
+form label{
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.err{
+  color: red;
+  font-size: 0.9rem;
+}
+.success{
+  background-color: #357AF7;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.reset{
+  padding: 0.5vw;
+  background-color: #acc4f1;
+}
+.reset:hover{
+  cursor: pointer;
+  background-color: #84abf5;
+}
